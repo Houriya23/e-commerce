@@ -48,6 +48,7 @@ export class ProductListComponent implements OnInit {
     }
     else {
       this.handleListProducts();
+      console.log(this.products);
     }
 
 
